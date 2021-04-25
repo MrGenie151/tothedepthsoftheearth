@@ -1,0 +1,37 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/DynamicFonts/Main.tres" type="DynamicFont" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -181.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_bottom = -227.0
+custom_fonts/font = ExtResource( 1 )
+text = "Sorry, but this is where the game ends! It's mainly because I was having issues with the topic and procrastinating, so i had to crunch on the last day. So sorry if this game was short, I was having a hard time coming up with ideas."
+align = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 596.0
+margin_bottom = 171.0
+custom_fonts/font = ExtResource( 1 )
+text = "Press escape to leave the game.
+This game was made using Godot Game Engine, give it some love!"
+align = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
